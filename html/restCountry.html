@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rest countries</title>
+    <style>
+        #country-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .c-card {
+            border-radius: 8px;
+            background-color: rgba(188, 187, 187, 0.424);
+            padding: 10px;
+            margin: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .c-card>button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .details-div {
+            padding: 20px;
+            background-color: #edeff1;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 40px;
+            border-radius: 20px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="country-details-container">
+
+    </div>
+    <div id="country-container">
+
+    </div>
+    <script src="../js/rest.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        blockquote {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(245, 245, 245, 0.205);
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+        img.background {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: blur(5px);
+            /* Safari 6.0 - 9.0 */
+            filter: blur(7px);
+        }
+    </style>
+</head>
+
+<body>
+    <img class="background" id="background" src="../bgp/bg-1.gif" alt="">
+    <main>
+        <blockquote id="qoute-container" title="fahimhossainjob1@gmail.com">
+            <p>Kyne Said...</p>
+        </blockquote>
+    </main>
+    <script src="/js/qoute.js"></script>
+</body>
+
+</html>

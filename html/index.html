@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todos from api</title>
+    <style>
+        .post {
+            padding: 10px;
+            margin: 10px;
+            background-color: rgba(238, 130, 238, 0.398);
+            border-radius: 10px;
+        }
+
+        #post-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="loadData()">Todos</button>
+    <button onclick="loadUser()">Users</button>
+    <div id="post-container">
+
+    </div>
+
+
+
+    <script src="/js/fetch.js"></script>
+</body>
+
+</html>
